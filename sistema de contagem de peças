@@ -1,0 +1,93 @@
+   
+   //inicio
+
+//----------------------------------------------------------------------------------------
+
+//peso da peça
+
+var one = 20 ;
+var two = 168;
+var tree =200; 
+
+var peso = tree
+
+    console.log('--------------------------------------');
+    console.log('informe o peso da peça:');
+    console.log(peso);
+if (tree <= 100){
+    console.log("peso invalido");
+}else{
+    console.log('peça cadastrada')
+}
+    console.log('--------------------------------------');
+    console.log('')
+
+ //----------------------------------------------------------------------------------------
+
+ //quantidade de peças
+
+const four = 20;
+const five = 4;
+const six = 10;
+
+var quant = four
+    console.log('--------------------------------------');
+    console.log('informe a quantidade de peças:');
+    console.log('Numero de peças: ' + quant);
+if (quant <= 10){
+    console.log('peças cadastradas');
+}else{
+    console.log('quantidade invalida');
+}
+    console.log('--------------------------------------');
+    console.log('')
+
+//----------------------------------------------------------------------------------------
+
+//nome das peças
+
+var nomepecas = ['PC','BOBINA','PSE']
+var numeropecas = nomepecas.length
+
+    console.log('--------------------------------------');
+
+    console.log('informe o numero de peças:')
+    console.log('Numero de peças: ' + numeropecas);
+
+    console.log('--------------------------------------')
+
+    console.log('Nome das peças:');
+
+
+for(let index = 0; index < nomepecas.length; index++){
+    console.log('Peça numero: ' + index + ' é ' + nomepecas[index])
+
+}
+    console.log('--------------------------------------');
+
+    
+//----------------------------------------------------------------------------------------
+
+if(nomepecas[0].length >= 3){
+    console.log('peça cadastrada');
+}else{
+    console.log('ERRO peça: ' + nomepecas[0] + ' não possui caracteres suficientes');
+}
+
+if(nomepecas[1].length >= 3){
+    console.log('peça cadastrada');
+}else{
+    console.log('ERRO peça: ' + nomepecas[1] + ' não possui caracteres suficientes');
+}
+
+if(nomepecas[2].length >= 3){
+    console.log('peça cadastrada');
+}else{
+    console.log('ERRO peça: ' + nomepecas[2] + ' não possui caracteres suficientes');
+}
+
+    console.log('--------------------------------------');
+//----------------------------------------------------------------------------------------
+
+
+//----------------------------------------------------------------------------------------
