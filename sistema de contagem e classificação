@@ -1,0 +1,30 @@
+//inicio
+
+var naluno 
+var turma = 30
+//-----------------------------------------------------------
+console.log('');
+console.log('-----------------------------------------------------------------------');
+console.log('Digite o numero maximo de alunos:');
+console.log('');
+console.log(turma + ' alunos no maximo');
+console.log('-----------------------------------------------------------------------');
+//----------------------------------------------------------
+for(let naluno = 0;naluno < turma; naluno++){
+
+    if(naluno%2 == 0){
+    if(naluno == 0){
+        console.log('O numero ' + naluno + ' é ZERO.')
+    }else{
+        console.log('O numero ' + naluno + ' é par.')
+    }
+    }else{
+        console.log('O numero ' + naluno + ' é impar.');
+    }
+
+}
+//-----------------------------------------------------------
+console.log('-----------------------------------------------------------------------');
+console.log('Obrigado por ter usado o APP :] ');
+console.log('-----------------------------------------------------------------------');
+//-----------------------------------------------------------
